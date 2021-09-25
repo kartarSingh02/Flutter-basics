@@ -5,10 +5,12 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( //scaffold is ued to make structure head,body,footer adn it also helps to maintain UI
       appBar: AppBar(
+        centerTitle: true,
         title: Text("My App"),
-      ), //makes appbar
+      ),
+        //makes appbar
       body: Center(
         //its body
         child: Container(
